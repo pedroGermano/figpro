@@ -1,0 +1,46 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 4.7rem 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    gap: 3.7rem;
+    a {
+      position: relative;
+      color: #514b4b;
+      font-size: 1.6rem;
+      line-height: 155.3%;
+      letter-spacing: 0.096rem;
+      &.active {
+        color: var(--BLACK);
+        font-weight: bold;
+        &:before {
+          content: "";
+          width: 0.4rem;
+          height: 2.6rem;
+          background: url("../img/line.svg") no-repeat center center;
+          position: absolute;
+          left: 50%;
+          margin-left: -0.2rem;
+          top: -3.6rem;
+        }
+      }
+      &:hover {
+        color: var(--BLACK);
+      }
+    }
+  }
+  .right-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+}
