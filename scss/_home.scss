@@ -4,6 +4,7 @@
   height: 95.3rem;
   background: url("../img/bg-paper.png") no-repeat top center;
   background-size: cover;
+  overflow: hidden;
   .left-text {
     width: 100%;
     max-width: 62.8rem;
@@ -61,6 +62,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
+
           &:not(:first-child) {
             margin-left: -1.5rem;
           }
@@ -72,6 +74,22 @@
         font-weight: 700;
         line-height: 155.3%;
       }
+    }
+  }
+
+  .ilustra {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  @media (max-width: 1700px) {
+    .ilustra {
+      right: -20rem;
+    }
+  }
+  @media (max-width: 1440px) {
+    .ilustra {
+      right: -36rem;
     }
   }
 }

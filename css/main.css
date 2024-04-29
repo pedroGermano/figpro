@@ -110,6 +110,7 @@ header .right-icons {
   height: 95.3rem;
   background: url("../img/bg-paper.png") no-repeat top center;
   background-size: cover;
+  overflow: hidden;
 }
 .s-hero .left-text {
   width: 100%;
@@ -180,4 +181,19 @@ header .right-icons {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 155.3%;
+}
+.s-hero .ilustra {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 1700px) {
+  .s-hero .ilustra {
+    right: -20rem;
+  }
+}
+@media (max-width: 1440px) {
+  .s-hero .ilustra {
+    right: -36rem;
+  }
 }/*# sourceMappingURL=main.css.map */
