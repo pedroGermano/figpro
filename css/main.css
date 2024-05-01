@@ -315,9 +315,25 @@ header .right-icons {
   flex: 1;
   max-width: 50.9rem;
   height: 58.9rem;
+  z-index: 1;
 }
 .s-how-to-use .image-right-container img {
   position: absolute;
+}
+.s-how-to-use .image-right-container img.one {
+  top: 2.2rem;
+  left: 1.6rem;
+  z-index: 1;
+}
+.s-how-to-use .image-right-container img.two {
+  top: 0;
+  right: 3.5rem;
+  z-index: 1;
+}
+.s-how-to-use .image-right-container img.three {
+  left: 14.3rem;
+  bottom: 7rem;
+  z-index: 1;
 }
 .s-how-to-use .image-right-container .shadow {
   position: absolute;
