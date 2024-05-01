@@ -57,6 +57,22 @@ a {
   margin: 0 auto;
 }
 
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  background-color: var(--YELLOW);
+  padding: 1.9rem 0;
+}
+.btn-primary span {
+  color: var(--BLACK-PRIMARY);
+  font-family: "Road Rage", sans-serif;
+  font-size: 4.6rem;
+  font-weight: 400;
+  letter-spacing: 2.3px;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -283,6 +299,7 @@ header .right-icons {
   position: relative;
   flex: 1;
   max-width: 50rem;
+  margin-bottom: 8.1rem;
 }
 .s-how-to-use .text-left-container h2 {
   position: absolute;
