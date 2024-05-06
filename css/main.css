@@ -647,14 +647,32 @@ footer .first-area .right ul {
   display: flex;
   justify-content: space-between;
 }
+footer .first-area .right ul li:not(:last-child) {
+  border-right: 1px solid #9c9c9c;
+  padding-right: 1.6rem;
+}
 footer .first-area .right ul li a {
   color: #9c9c9c;
   font-size: 1.5rem;
   line-height: 155.3%;
   text-transform: uppercase;
   opacity: 0.8;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
 }
 footer .first-area .right ul li a:hover {
   opacity: 1;
+  color: var(--WHITE);
+}
+footer .second-area {
+  border-top: 1px solid #282828;
+  margin-top: 4.1rem;
+  padding-top: 4.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .second-area p {
+  color: #5c5c5c;
+  font-size: 1.5rem;
+  line-height: 155.3%;
+  letter-spacing: -1.05px;
 }/*# sourceMappingURL=main.css.map */
