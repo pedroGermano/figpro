@@ -540,8 +540,16 @@ header .right-icons {
 }
 
 .s-world {
+  position: relative;
   padding-top: 11.3rem;
   padding-bottom: 13.4rem;
+  overflow: hidden;
+  background: url(../img/fade.png) no-repeat bottom center;
+}
+.s-world .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .s-world .title {
   text-align: center;
@@ -565,4 +573,88 @@ header .right-icons {
 }
 .s-world p {
   text-align: center;
+  color: #9c9c9c;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 155.3%;
+  max-width: 63.2rem;
+  margin-bottom: 6.3rem;
+}
+.s-world .ilustration {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+.s-world .ilustration.eagle {
+  top: -4.4rem;
+  left: 0;
+}
+.s-world .ilustration.tiger {
+  bottom: 0;
+  left: 0;
+}
+.s-world .ilustration.octopus {
+  top: -4.4rem;
+  right: 0;
+}
+.s-world .ilustration.owl {
+  right: 0;
+  bottom: 7.1rem;
+}
+@media (min-width: 1441px) {
+  .s-world {
+    background-size: cover;
+  }
+}
+
+footer {
+  background: var(--BLACK);
+  color: var(--WHITE);
+  padding-top: 4.8rem;
+  padding-bottom: 5.5rem;
+}
+footer .first-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .first-area .left {
+  flex: 1;
+  max-width: 60rem;
+}
+footer .first-area .left p {
+  color: #9c9c9c;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 155.3%;
+  margin-top: 2.2rem;
+}
+footer .first-area .right {
+  flex: 1;
+  max-width: 27rem;
+}
+footer .first-area .right h3 {
+  opacity: 0.8;
+  color: var(--WHITE);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 155.3%;
+  letter-spacing: 0.162rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+footer .first-area .right ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer .first-area .right ul li a {
+  color: #9c9c9c;
+  font-size: 1.5rem;
+  line-height: 155.3%;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+footer .first-area .right ul li a:hover {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
